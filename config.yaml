@@ -1,10 +1,9 @@
 # Database: SQLite file in repo root
 db:
-uri: sqlite:///supplier_risk.db
-
+  uri: sqlite:///supplier_risk.db
 
 # directories
 paths:
-raw_dir: raw
-processed_dir: data/processed
-models_dir: data/models
+  raw_dir: raw
+  processed_dir: data/processed
+  models_dir: data/models
